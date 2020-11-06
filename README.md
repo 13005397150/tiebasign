@@ -11,7 +11,6 @@
 - [x] 特殊吧补签，防止漏签
 - [x] 签到结果通知：1. 电报（telegram）2. server酱（微信）
 
-Demo：https://tb-act.tk
 # 使用说明
 ## 注册一个github账号，已有请跳过
 [注册教程](https://jingyan.baidu.com/article/86fae346e723303c49121abb.html)
@@ -54,7 +53,6 @@ NOTIFY_COUNT  | 通知/签到数据更新 次数，默认每天通知一次（�
 5. 【云签网页，可选】利用github pages为云签添加首页，用来随时查看签到情况（支持手机、pc访问）
 - 为项目开启github pages，根据自己情况可以使用自定义域名或是github提供的二级域名
   ![avatar](https://cdn.jsdelivr.net/gh/libsgh/Tieba-Sign-Actions@master/doc/2-2-5-1.png)
-  例如：http://tb-act.tk、https://libsgh.github.io/Tieba-Sign-Actions/
   
 - 添加Secret: **GH_TOKEN**，github的access_token，用于上传签到结果到github仓库
 - ~~添加Secret: **OWNER_REPO**，云签仓库的名称，例如我的是**libsgh/Tieba-Sign-Actions**~~(改为自动获取)
